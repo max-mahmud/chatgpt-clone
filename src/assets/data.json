@@ -1,0 +1,274 @@
+[
+  {
+    "day": "Today",
+    "tasks": [
+      {
+        "id": 14544,
+        "taskName": "Junior React Developer Assessment",
+        "result": [
+          {
+            "questions": "Can you suggest fun activities for a family of 4 to do indoors on a rainy day?",
+            "answer": "Board Games or Card Games: Pull out some classics or new favorites. Games like Monopoly, Scrabble, Uno, or even a deck of cards can spark lots of fun and friendly competition."
+          },
+          {
+            "questions": "How do you optimize performance in React applications?",
+            "answer": "Performance optimization in React can be achieved by utilizing techniques like code splitting, memoization, using PureComponent or React.memo, optimizing renders, and minimizing unnecessary re-renders."
+          }
+        ]
+      },
+      {
+        "id": 14545,
+        "taskName": "Intro to React.js Concepts",
+        "result": [
+          {
+            "questions": "React.js Fresher Introduction",
+            "answer": "React.js, commonly known as React, is an open-source front-end JavaScript library maintained by Facebook and a community of developers. It's designed for creating interactive and dynamic user interfaces (UIs). React is known for its component-based architecture, which allows developers to build encapsulated, reusable UI components."
+          },
+          {
+            "questions": "what is football",
+            "answer": "Football, also known as soccer in some countries, is a popular team sport played by two teams of eleven players each, with the objective of scoring goals by kicking a ball into the opponent's goal. It's arguably the most popular sport globally and is played and enjoyed by millions of people."
+          }
+        ]
+      },
+      {
+        "id": 14546,
+        "taskName": "Advanced React State Management",
+        "result": [
+          {
+            "questions": "What are some popular state management libraries in React?",
+            "answer": "Some popular state management libraries in React include Redux, MobX, and Context API. Each has its advantages and is used based on the complexity and requirements of the application."
+          },
+          {
+            "questions": "Explain the concept of 'state' in React.",
+            "answer": "In React, 'state' represents the data specific to a component. It's mutable and can be changed using setState(). Components can have their own state, allowing them to manage their data independently."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Previous 7 Days",
+    "tasks": [
+      {
+        "id": 1477,
+        "taskName": "React.js Project Management",
+        "result": [
+          {
+            "questions": "What are the key steps in setting up a React project?",
+            "answer": "Setting up a React project involves steps like installing Node.js, using Create React App, organizing project structure, installing necessary dependencies, and configuring the build process."
+          },
+          {
+            "questions": "How can you handle forms in React?",
+            "answer": "Forms in React can be managed by using controlled components where form data is handled by React components and state, or by using form libraries like Formik that simplify form management."
+          }
+        ]
+      },
+      {
+        "id": 1478,
+        "taskName": "Junior React Developer Assessment",
+        "result": [
+          {
+            "questions": "Can you suggest fun activities for a family of 4 to do indoors on a rainy day?",
+            "answer": "Board Games or Card Games: Pull out some classics or new favorites. Games like Monopoly, Scrabble, Uno, or even a deck of cards can spark lots of fun and friendly competition."
+          },
+          {
+            "questions": "How do you optimize performance in React applications?",
+            "answer": "Performance optimization in React can be achieved by utilizing techniques like code splitting, memoization, using PureComponent or React.memo, optimizing renders, and minimizing unnecessary re-renders."
+          }
+        ]
+      },
+      {
+        "id": 1479,
+        "taskName": "Intro to React.js Concepts",
+        "result": [
+          {
+            "questions": "React.js Fresher Introduction",
+            "answer": "React.js, commonly known as React, is an open-source front-end JavaScript library maintained by Facebook and a community of developers. It's designed for creating interactive and dynamic user interfaces (UIs). React is known for its component-based architecture, which allows developers to build encapsulated, reusable UI components."
+          },
+          {
+            "questions": "what is football",
+            "answer": "Football, also known as soccer in some countries, is a popular team sport played by two teams of eleven players each, with the objective of scoring goals by kicking a ball into the opponent's goal. It's arguably the most popular sport globally and is played and enjoyed by millions of people."
+          }
+        ]
+      },
+      {
+        "id": 1480,
+        "taskName": "Advanced React State Management",
+        "result": [
+          {
+            "questions": "What are some popular state management libraries in React?",
+            "answer": "Some popular state management libraries in React include Redux, MobX, and Context API. Each has its advantages and is used based on the complexity and requirements of the application."
+          },
+          {
+            "questions": "Explain the concept of 'state' in React.",
+            "answer": "In React, 'state' represents the data specific to a component. It's mutable and can be changed using setState(). Components can have their own state, allowing them to manage their data independently."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Previous 30 Days",
+    "tasks": [
+      {
+        "id": 147,
+        "taskName": "Introduction to Game Development with Phaser.js",
+        "result": [
+          {
+            "questions": "What is Phaser.js and its role in game development?",
+            "answer": "Phaser.js is a fast and robust open-source framework used for building HTML5 games. It provides a suite of features for creating 2D games for web browsers and mobile devices using JavaScript."
+          },
+          {
+            "questions": "How can you handle player input in a Phaser.js game?",
+            "answer": "Player input in a Phaser.js game can be managed through methods like keyboard input handling, mouse and touch input, and utilizing Phaser's input events and listeners."
+          }
+        ]
+      },
+      {
+        "id": 148,
+        "taskName": "React.js Hooks Exploration",
+        "result": [
+          {
+            "questions": "What are React hooks and how do they differ from class components?",
+            "answer": "React hooks are functions that enable the use of state and other React features in functional components. They differ from class components by providing a more concise way to manage state and lifecycle features without using classes."
+          },
+          {
+            "questions": "Explain the usage of useEffect() hook in React.",
+            "answer": "The useEffect() hook in React is used for performing side effects in functional components. It runs after every render and replaces lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount."
+          }
+        ]
+      },
+      {
+        "id": 152,
+        "taskName": "React.js Component Lifecycle",
+        "result": [
+          {
+            "questions": "What are the different phases of a React component lifecycle?",
+            "answer": "The React component lifecycle consists of mounting, updating, and unmounting phases. The mounting phase includes constructor, render, componentDidMount. The updating phase involves shouldComponentUpdate, render, componentDidUpdate. The unmounting phase has componentWillUnmount."
+          },
+          {
+            "questions": "How does state differ from props in React?",
+            "answer": "State is managed internally by the component and can be changed using setState(), whereas props are passed from parent to child components and remain immutable within the child component."
+          }
+        ]
+      },
+      {
+        "id": 153,
+        "taskName": "React.js Project Management",
+        "result": [
+          {
+            "questions": "What are the key steps in setting up a React project?",
+            "answer": "Setting up a React project involves steps like installing Node.js, using Create React App, organizing project structure, installing necessary dependencies, and configuring the build process."
+          },
+          {
+            "questions": "How can you handle forms in React?",
+            "answer": "Forms in React can be managed by using controlled components where form data is handled by React components and state, or by using form libraries like Formik that simplify form management."
+          }
+        ]
+      },
+      {
+        "id": 155,
+        "taskName": "Junior React Developer Assessment",
+        "result": [
+          {
+            "questions": "Can you suggest fun activities for a family of 4 to do indoors on a rainy day?",
+            "answer": "Board Games or Card Games: Pull out some classics or new favorites. Games like Monopoly, Scrabble, Uno, or even a deck of cards can spark lots of fun and friendly competition."
+          },
+          {
+            "questions": "How do you optimize performance in React applications?",
+            "answer": "Performance optimization in React can be achieved by utilizing techniques like code splitting, memoization, using PureComponent or React.memo, optimizing renders, and minimizing unnecessary re-renders."
+          }
+        ]
+      },
+      {
+        "id": 156,
+        "taskName": "Intro to React.js Concepts",
+        "result": [
+          {
+            "questions": "React.js Fresher Introduction",
+            "answer": "React.js, commonly known as React, is an open-source front-end JavaScript library maintained by Facebook and a community of developers. It's designed for creating interactive and dynamic user interfaces (UIs). React is known for its component-based architecture, which allows developers to build encapsulated, reusable UI components."
+          },
+          {
+            "questions": "what is football",
+            "answer": "Football, also known as soccer in some countries, is a popular team sport played by two teams of eleven players each, with the objective of scoring goals by kicking a ball into the opponent's goal. It's arguably the most popular sport globally and is played and enjoyed by millions of people."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "October",
+    "tasks": [
+      {
+        "id": 17,
+        "taskName": "React.js Component Lifecycle",
+        "result": [
+          {
+            "questions": "What are the different phases of a React component lifecycle?",
+            "answer": "The React component lifecycle consists of mounting, updating, and unmounting phases. The mounting phase includes constructor, render, componentDidMount. The updating phase involves shouldComponentUpdate, render, componentDidUpdate. The unmounting phase has componentWillUnmount."
+          },
+          {
+            "questions": "How does state differ from props in React?",
+            "answer": "State is managed internally by the component and can be changed using setState(), whereas props are passed from parent to child components and remain immutable within the child component."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "taskName": "React.js Project Management",
+        "result": [
+          {
+            "questions": "What are the key steps in setting up a React project?",
+            "answer": "Setting up a React project involves steps like installing Node.js, using Create React App, organizing project structure, installing necessary dependencies, and configuring the build process."
+          },
+          {
+            "questions": "How can you handle forms in React?",
+            "answer": "Forms in React can be managed by using controlled components where form data is handled by React components and state, or by using form libraries like Formik that simplify form management."
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "taskName": "Junior React Developer Assessment",
+        "result": [
+          {
+            "questions": "Can you suggest fun activities for a family of 4 to do indoors on a rainy day?",
+            "answer": "Board Games or Card Games: Pull out some classics or new favorites. Games like Monopoly, Scrabble, Uno, or even a deck of cards can spark lots of fun and friendly competition."
+          },
+          {
+            "questions": "How do you optimize performance in React applications?",
+            "answer": "Performance optimization in React can be achieved by utilizing techniques like code splitting, memoization, using PureComponent or React.memo, optimizing renders, and minimizing unnecessary re-renders."
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "taskName": "Intro to React.js Concepts",
+        "result": [
+          {
+            "questions": "React.js Fresher Introduction",
+            "answer": "React.js, commonly known as React, is an open-source front-end JavaScript library maintained by Facebook and a community of developers. It's designed for creating interactive and dynamic user interfaces (UIs). React is known for its component-based architecture, which allows developers to build encapsulated, reusable UI components."
+          },
+          {
+            "questions": "what is football",
+            "answer": "Football, also known as soccer in some countries, is a popular team sport played by two teams of eleven players each, with the objective of scoring goals by kicking a ball into the opponent's goal. It's arguably the most popular sport globally and is played and enjoyed by millions of people."
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "taskName": "Advanced React State Management",
+        "result": [
+          {
+            "questions": "What are some popular state management libraries in React?",
+            "answer": "Some popular state management libraries in React include Redux, MobX, and Context API. Each has its advantages and is used based on the complexity and requirements of the application."
+          },
+          {
+            "questions": "Explain the concept of 'state' in React.",
+            "answer": "In React, 'state' represents the data specific to a component. It's mutable and can be changed using setState(). Components can have their own state, allowing them to manage their data independently."
+          }
+        ]
+      }
+    ]
+  }
+]
