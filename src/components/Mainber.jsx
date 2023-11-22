@@ -5,7 +5,7 @@ import ChatResult from "./ChatResult";
 import FirstPage from "./FirstPage";
 import data from "../assets/data.json";
 
-const Mainber = ({ chatId, setUpdateData, setChatId, selectDay, ber }) => {
+const Mainber = ({ chatId, setUpdateData, setChatId, selectDay, ber, setResponsive }) => {
   const [name, setName] = useState("");
   let text =
     "Some popular state management libraries in React include Redux, MobX, and Context API. Each has its advantages and is used based on the complexity and requirements of the application.";
@@ -52,12 +52,12 @@ const Mainber = ({ chatId, setUpdateData, setChatId, selectDay, ber }) => {
 
   return (
     <div className="">
-      <Header chatId={chatId} ber={ber} />
-      <div className=" h-[87vh] w-[730px] mx-auto overflow-y-auto scroll-container">
+      <Header chatId={chatId} setChatId={setChatId} ber={ber} setResponsive={setResponsive} />
+      <div className=" lg:h-[87vh] h-[83vh] lg:w-[730px] md:w-[600px] w-full mx-auto overflow-y-auto scroll-container">
         {!chatId ? <FirstPage /> : <ChatResult chatId={chatId} />}
       </div>
       {/* Message button */}
-      <div className="w-[795px] mx-auto pr-8">
+      <div className="lg:w-[795px] md:w-[600px] w-full mx-auto lg:pr-8 z-0 px-2 ">
         <div className="flex items-center justify-between p-[2px] relative">
           <input
             type="text"

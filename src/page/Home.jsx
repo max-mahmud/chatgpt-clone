@@ -10,22 +10,33 @@ const Home = () => {
   let [updatData, setUpdateData] = useState(data);
   const [selectDay, setSelectDay] = useState(data[0].day);
   const [ber, setBer] = useState(true);
+  const [responsive, setResponsive] = useState(false);
 
   return (
     <div className="flex">
-      <div className={`${ber ? "w-1/5" : "w-3"} flex gap-1 items-center`}>
-        {ber && <Sideber setChatId={setChatId} updatData={updatData} setSelectDay={setSelectDay} />}
-        <span onClick={() => setBer(!ber)} className="cursor-pointer">
+      <div className={`${ber ? "lg:w-[290px] w-0" : "w-3"} flex gap-1 items-center`}>
+        {ber && (
+          <Sideber
+            setChatId={setChatId}
+            updatData={updatData}
+            setSelectDay={setSelectDay}
+            responsive={responsive}
+            setResponsive={setResponsive}
+          />
+        )}
+
+        <span onClick={() => setBer(!ber)} className="cursor-pointer hidden lg:block">
           <FaGripLinesVertical />
         </span>
       </div>
-      <div className={`${ber ? "w-4/5" : "w-full"}`}>
+      <div className={`${ber ? "lg:w-[calc(100vw-300px)] w-full " : "w-full"}`}>
         <Mainber
           chatId={chatId}
           setChatId={setChatId}
           ber={ber}
           setUpdateData={setUpdateData}
           selectDay={selectDay}
+          setResponsive={setResponsive}
         />
       </div>
     </div>

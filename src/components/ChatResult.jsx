@@ -4,9 +4,9 @@ import { FcManager } from "react-icons/fc";
 const ChatResult = ({ chatId }) => {
   return (
     <div>
-      <h4 className="py-5">"</h4>
+      <h4 className="py-6"></h4>
       {data.map((item, i) => (
-        <div key={i}>
+        <div key={i} className="sm:mx-7 lg:mx-0 mx-3">
           {item.tasks.map((task, j) => (
             <div key={j}>
               {task.id === chatId ? (
