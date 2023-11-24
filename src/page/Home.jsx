@@ -3,7 +3,8 @@ import Sideber from "../components/Sideber";
 import Mainber from "../components/Mainber";
 import data from "../assets/data.json";
 import { FaGripLinesVertical } from "react-icons/fa";
-import { BiSolidChevronsLeft } from "react-icons/bi";
+import { FiChevronsLeft } from "react-icons/fi";
+import { LuChevronsRight } from "react-icons/lu";
 
 const Home = () => {
   const [chatId, setChatId] = useState("");
@@ -13,8 +14,12 @@ const Home = () => {
   const [responsive, setResponsive] = useState(false);
 
   return (
-    <div className="flex">
-      <div className={`${ber ? "lg:w-[290px] w-0" : "w-3"} flex gap-1 items-center`}>
+    <div className="flex ">
+      <div
+        className={`${
+          ber ? "lg:w-[295px]   w-0 " : "w-0"
+        } flex gap-1  transition-all duration-200  items-center z-40`}
+      >
         {ber && (
           <Sideber
             setChatId={setChatId}
@@ -25,11 +30,11 @@ const Home = () => {
           />
         )}
 
-        <span onClick={() => setBer(!ber)} className="cursor-pointer hidden lg:block">
-          <FaGripLinesVertical />
+        <span onClick={() => setBer(!ber)} className="cursor-pointer hidden text-xl lg:block">
+          {ber ? <FiChevronsLeft /> : <LuChevronsRight />}
         </span>
       </div>
-      <div className={`${ber ? "lg:w-[calc(100vw-300px)] w-full " : "w-full"}`}>
+      <div className={`${ber ? "lg:w-[calc(100vw-320px)] w-full " : "w-full "}  `}>
         <Mainber
           chatId={chatId}
           setChatId={setChatId}

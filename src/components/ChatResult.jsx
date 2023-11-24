@@ -22,7 +22,7 @@ const ChatResult = ({ chatId }) => {
                       </div>
                       <div className="mt-4">
                         <div className="flex gap-3 items-center">
-                          <img src="/greenLogo.png" alt="logo" className="rounded-full w-7 h-7 p-[2px]" />
+                          <img src="/parrot.png" alt="logo" className="rounded-full w-7 h-7 p-[2px]" />
                           <span className=" font-medium">ChatGPT</span>
                         </div>
                         <p className="ms-10">{q.answer}</p>
